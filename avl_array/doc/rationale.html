@@ -190,13 +190,13 @@ nor the algorithmic complexity of any operation.
 The dummy node is not aggregated as a member variable to the container class.
 Instead, it is inherited:
 <blockquote><pre>
-        <b>rank_list_node_tree_fields</b>
+        <b>avl_array_node_tree_fields</b>
            (without value_type)
                     |
             ________|________
            |                 |
            |                 |
-      <b>avl_array</b>         <b>rank_list_node</b>
+      <b>avl_array</b>         <b>avl_array_node</b>
 (without value_type)   (<u>with</u> value_type)
 </pre></blockquote>
 All pointers in the base class (<code>m_parent</code>,<code> m_next</code>,<code>
